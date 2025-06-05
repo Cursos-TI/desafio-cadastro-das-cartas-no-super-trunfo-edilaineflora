@@ -9,7 +9,7 @@ int main(){
 
     setlocale(LC_ALL,"portuguese");
 
-    printf("\ndigite o nome do estado 1: ");
+    printf("\n digite o nome do estado 1: ");
     scanf("%s",&nomeEstado1);
     printf("\n digite o codigo da carta 1: ");
     scanf("%s",&codigoCarta1);
@@ -24,7 +24,7 @@ int main(){
     printf("\n digite o pib da cidade 1: ");
     scanf("%f", &pib1);
 
-    printf("\n\ndigite o nome do estado 2: ");
+    printf("\n\n digite o nome do estado 2: ");
     scanf("%s",&nomeEstado2);
     printf("\n digite o codigo da carta 2: ");
     scanf("%s",&codigoCarta2);
@@ -42,21 +42,21 @@ int main(){
     
 
     printf("carta1:");
-    printf("\nestado: %s",nomeEstado1);
+    printf("\nestado: %s", nomeEstado1);
     printf("\ncodigo: %s", codigoCarta1);
-    printf("\nnome da cidade: %s",nomeCidade1);
-    printf("\nPopulação: %d",populacao1);
-    printf("\nÁrea: %f",area1);
-    printf("\nPib: %2.f bilhões de reais",pib1);
-    printf("\nNúmero de Pontos Turísticos: %d",&pontosTuristicos1);
+    printf("\nnome da cidade: %s", nomeCidade1);
+    printf("\nPopulação: %d", populacao1);
+    printf("\nÁrea: %f", area1);
+    printf("\nPib: %2.f bilhões de reais", pib1);
+    printf("\nNúmero de Pontos Turísticos: %d", &pontosTuristicos1);
 
     printf("carta2:");
-    printf("\nestado: %s",nomeEstado2);
+    printf("\nestado: %s", nomeEstado2);
     printf("\ncodigo: %s", codigoCarta2);
-    printf("\nnome da cidade: %s",nomeCidade2);
-    printf("\nPopulação: %d",populacao2);
-    printf("\nÁrea: %f",area2);
-    printf("\nPib: %2.f bilhões de reais",pib2);
+    printf("\nnome da cidade: %s", nomeCidade2);
+    printf("\nPopulação: %d", populacao2);
+    printf("\nÁrea: %f", area2);
+    printf("\nPib: %2.f bilhões de reais", pib2);
     printf("\nNúmero de Pontos Turísticos: %d", &pontosTuristicos2);
 
 
